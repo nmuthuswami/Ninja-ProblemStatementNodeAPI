@@ -8,7 +8,7 @@ var port = process.env.port || 3000;
 server.use(bodyParser.json());
 
 server.get('/',(req,res)=>{
-    res.send('Hi Jeeya');
+    res.send('Hi this is my first node js deployment in azure.');
 });
 
 server.get('/api/getDirDetails',(req,res)=>{
